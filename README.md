@@ -14,4 +14,5 @@
  - 13 Crea un superusuario para acceder al panel de administración de Django python manage.py createsuperuser
  - 14 configuramos el login  con email del super user  desde el archivo models.py
  - 15 Instalamos django-rest-framework https://www.django-rest-framework.org/ y lo  añadimos al archivo settings.py 
-
+ - 16 Instalamos dependencias para generar documentacion pip install drf-yasg y lo agregamos al archivo  settings.py urls y STATIC_ROOT , python manage.py collectstatic
+ - 17 creamos la carpeta api con los archivos views, router, serializer, __init__.py
